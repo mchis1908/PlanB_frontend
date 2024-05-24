@@ -71,7 +71,7 @@ function AdminStaff(props) {
   return (
     <div className='AdminStaff'>
       <Menu/>
-      <Header title="QUẢN LÝ NHÂN VIÊN" avt='http://surl.li/ggptd' name={localStorage.getItem('user')}/>
+      <Header title="QUẢN LÝ NHÂN VIÊN" avt='https://cellphones.com.vn/sforum/wp-content/uploads/2023/10/avatar-trang-4.jpg' name={localStorage.getItem('user')}/>
       <div className='AdminStaff_main'>
         <div className='AdminStaff_searchbar'>
           <input className="search-area" type="text" placeholder='Nhập thông tin nhân viên cần tìm' onChange={(e)=> setSearchKey(e.target.value)}/>

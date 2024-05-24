@@ -197,7 +197,7 @@ const calculateTotal = () => {
 return (
   <div className='EmployeeDeposit'>
     <Menu/>
-    <Header title="KÝ GỬI" avt='http://surl.li/ggptd' name={localStorage.getItem('user')}/>
+    <Header title="KÝ GỬI" avt='https://cellphones.com.vn/sforum/wp-content/uploads/2023/10/avatar-trang-4.jpg' name={localStorage.getItem('user')}/>
     <div className='EmployeeDeposit_main'>
       <div className="EmployeeDeposit_Bottom">
         <div className='EmployeeDeposit_Content'>

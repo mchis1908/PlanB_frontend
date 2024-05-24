@@ -199,7 +199,7 @@ const calculateTotal = () => {
 return (
   <div className='AdminDeposit'>
     <Menu/>
-    <Header title="KÝ GỬI" avt='http://surl.li/ggptd' name={localStorage.getItem('user')}/>
+    <Header title="KÝ GỬI" avt='https://cellphones.com.vn/sforum/wp-content/uploads/2023/10/avatar-trang-4.jpg' name={localStorage.getItem('user')}/>
     <div className='AdminDeposit_main'>
       <div className="AdminDeposit_Bottom">
         <div className='AdminDeposit_Content'>

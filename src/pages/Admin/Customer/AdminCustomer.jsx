@@ -68,7 +68,7 @@ const handleSearch = async(sk) => {
   return (
     <div className='AdminCustomer'>
       <Menu />
-      <Header title="QUẢN LÝ KHÁCH HÀNG" avt='http://surl.li/ggptd' name={localStorage.getItem('user')}/>
+      <Header title="QUẢN LÝ KHÁCH HÀNG" avt='https://cellphones.com.vn/sforum/wp-content/uploads/2023/10/avatar-trang-4.jpg' name={localStorage.getItem('user')}/>
       <div className='AdminCustomer_main'>
         <div className='AdminCustomer_searchbar'>
           <input className="search-area" type="text" placeholder='Nhập số điện thoại hoặc tên khách hàng cần tìm' onChange={(e)=> setSearchKey(e.target.value)}/>

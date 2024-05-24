@@ -202,7 +202,7 @@ function AdminSchedule(props) {
   return (
     <div className='AdminSchedule'>
       <Menu/>
-      <Header title="LỊCH LÀM VIỆC" avt='http://surl.li/ggptd' name={localStorage.getItem('user')}/>
+      <Header title="LỊCH LÀM VIỆC" avt='https://cellphones.com.vn/sforum/wp-content/uploads/2023/10/avatar-trang-4.jpg' name={localStorage.getItem('user')}/>
       <div className='AdminSchedule_main'>
         <div className='AdminSchedule_searchbar'>
           <label>Chọn thời gian:</label>

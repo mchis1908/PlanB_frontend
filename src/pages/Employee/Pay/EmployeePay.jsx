@@ -181,7 +181,7 @@ const handleDelete = (sp) => {
   return (
     <div className='EmployeePay'>
       <Menu/>
-      <Header title="THANH TOÁN" avt='http://surl.li/ggptd' name={localStorage.getItem('user')}/>
+      <Header title="THANH TOÁN" avt='https://cellphones.com.vn/sforum/wp-content/uploads/2023/10/avatar-trang-4.jpg' name={localStorage.getItem('user')}/>
       <div className='EmployeePay_main'>
         <div className="EmployeePay_Top">
           <input className='EmployeePay_ProductInf_Input' id='searchkey' value={searchkey} placeholder='Nhập mã sản phẩm' onChange={(e)=> setSearchKey(e.target.value)}></input>

@@ -206,7 +206,7 @@ function EmployeeHome() {
   return (
     <div className='EmployeeHome'>
       <Menu/>
-      <Header title="TRANG CHỦ" avt='http://surl.li/ggptd' name={localStorage.getItem('user')}/>
+      <Header title="TRANG CHỦ" avt='https://cellphones.com.vn/sforum/wp-content/uploads/2023/10/avatar-trang-4.jpg' name={localStorage.getItem('user')}/>
       <div className='EmployeeHome_main'>
         <div className='EmployeeHome_Overview'>
         <div className='Overview_block1'>
@@ -272,7 +272,7 @@ function EmployeeHome() {
                     if (index < 10) {
                       return (
                           <div className='CustomerRecent_Info'>
-                            <img className='CustomerRecent_Avt' src='http://surl.li/ggptd' alt="image"/>
+                            <img className='CustomerRecent_Avt' src='https://cellphones.com.vn/sforum/wp-content/uploads/2023/10/avatar-trang-4.jpg' alt="image"/>
                             <div className='CustomerRecent_Name'>{khachhangs.HOTEN}</div>
                             <div className='CustomerRecent_Phone'>{khachhangs.SDT}</div>
                           </div>

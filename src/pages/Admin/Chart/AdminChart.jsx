@@ -375,7 +375,7 @@ function AdminChart() {
   return (
     <div className='AdminChart'>
       <Menu/>
-      <Header title="BIỂU ĐỒ" avt='http://surl.li/ggptd' name={localStorage.getItem('user')}/>
+      <Header title="BIỂU ĐỒ" avt='https://cellphones.com.vn/sforum/wp-content/uploads/2023/10/avatar-trang-4.jpg' name={localStorage.getItem('user')}/>
       <div className='AdminChart_main'>
         <div className='AdminChart_Top'>
           <div className='AdminChart_Chart'>

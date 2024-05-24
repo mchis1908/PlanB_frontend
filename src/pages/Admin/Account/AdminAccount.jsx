@@ -60,7 +60,7 @@ function AdminAccount(props) {
   return (
     <div className='AdminAccount'>
       <Menu/>
-      <Header title="QUẢN LÝ TÀI KHOẢN" avt='http://surl.li/ggptd' name={localStorage.getItem('user')}/>
+      <Header title="QUẢN LÝ TÀI KHOẢN" avt='https://cellphones.com.vn/sforum/wp-content/uploads/2023/10/avatar-trang-4.jpg' name={localStorage.getItem('user')}/>
       <div className='AdminAccount_main'>
         <div className='AdminAccount_searchbar'>
           <input className="search-area" type="text" placeholder='Nhập tên tài khoản hoặc nhân viên cần tìm' onChange={(e)=> setSearchKey(e.target.value)}/>

@@ -202,7 +202,7 @@ function AdminReport() {
     return (
       <div className='AdminReport'>
         <Menu/>
-        <Header title="BÁO CÁO" avt='http://surl.li/ggptd' name={localStorage.getItem('user')}/>
+        <Header title="BÁO CÁO" avt='https://cellphones.com.vn/sforum/wp-content/uploads/2023/10/avatar-trang-4.jpg' name={localStorage.getItem('user')}/>
         <div className='AdminReport_main'>
             <div className='AdminReport_information'>
                 <Box sx={{ width: '84vw', typography: 'body1', margin:'4vh 2vw 2vh 2vw', background:'#fff' }}>
